@@ -1,8 +1,8 @@
-const mongoose = require('mongoose');
-const BlogPost = require('./models/BlogPost');
+// const mongoose = require('mongoose');
+// const BlogPost = require('./models/BlogPost');
 
-mongoose.set('strictQuery', false);
-mongoose.connect('mongodb://localhost:27017/test_my_database', { useNewUrlParser: true });
+// mongoose.set('strictQuery', false);
+// mongoose.connect('mongodb://localhost:27017/test_my_database', { useNewUrlParser: true });
 
 
 //CREATE
@@ -13,7 +13,7 @@ mongoose.connect('mongodb://localhost:27017/test_my_database', { useNewUrlParser
 //     console.log(error, blogpost)
 // })
 
-console.log('================================')
+// console.log('================================')
 //FIND
 // BlogPost.find({}, (err, blogpost) => {
 //     console.log(err, blogpost)
